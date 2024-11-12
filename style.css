@@ -1,0 +1,122 @@
+h1{
+    margin: 0px;
+}
+html, body{
+    margin: 0;
+}
+
+body{
+    background-color: #813693;
+    font-family: monospace;
+    color: deeppink;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+p{
+    font-size: 1em;
+}
+
+ul{
+    margin: 0px;
+}
+
+.handjet-cool {
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 120;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+}
+
+header{
+    background-color: blue;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul{
+    display: flex;
+}
+
+#nav-ul > li{
+    padding: 8px;
+}
+
+#logo{
+    font-family: "Handjet", sans-serif;
+    margin: 0px;
+    padding: 8px;
+    width: 16%;
+    border-radius: 40%;
+    text-shadow:
+    1px 1px  0px black,  /* bottom-right shadow*/
+    -1px 1px  0px black,  /* bottom-left shadow*/
+    1px -1px  0px black,  /* top-right shadow*/
+    -1px -1px  0px black,  /* top-left shadow*/
+    
+    ;
+}
+
+body > header > nav > ul{
+    list-style: none;
+}
+
+body > header > nav > ul > a{
+    text-decoration: none;
+}
+
+body > main article{
+    width: 70%;
+    margin: auto;
+}
+
+#main-content{
+    display: flex;
+}
+
+#main-content div{
+    width: 70%
+}
+
+
+
+
+form{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.navbutton{
+    color: aquamarine;
+}
+
+body > footer{
+    background-color: blue;
+    display: flex;
+}
+
+#footer-ul{
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li{
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a{
+    text-decoration: none;
+
+}
+
+img{
+    border-radius: 100%;
+}
